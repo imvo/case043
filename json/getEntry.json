@@ -1,0 +1,67 @@
+{
+  "response": {
+    "entry": {
+      "id": 1,
+      "name": "Грамматическая ошибка",
+      "directory": {
+        "id": 1,
+        "name": "Типы ошибок"
+      },
+      "items": [
+        {
+          "id": "name",
+          "name": "Наименование",
+          "type": "TEXT",
+          "value": "Грамматическая ошибка"
+        },
+        {
+          "id": "weight",
+          "name": "Тяжесть",
+          "type": "INTEGER",
+          "value": 1
+
+        },
+        {
+          "id": "point",
+          "name": "Балл",
+          "type": "FLOAT",
+          "value": 0.25
+        },
+        {
+          "id": "endDate",
+          "name": "Действует до",
+          "type": "DATE",
+          "value": "12.02.2015"
+        },
+        {
+          "id": "describe",
+          "name": "Описание",
+          "type": "TEXTAREA",
+          "value": "Описание ошибки"
+        },
+        {
+          "id": "units",
+          "name": "Единицы измерения",
+          "type": "SELECT",
+          "values": [
+            {
+              "id": 1,
+              "name": "Баллы",
+              "selected": true
+            },
+            {
+              "id": 2,
+              "name": "Минуты",
+              "selected": false
+            },
+            {
+              "id": 3,
+              "name": "Часы",
+              "selected": false
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

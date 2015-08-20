@@ -1,0 +1,22 @@
+{
+  "name": "demo",
+  "version": "0.1.0",
+  "authors": [
+    "vmalakhov <vmalakhov@roox.ru>"
+  ],
+  "description": "demo case",
+  "main": "directories.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "pickmeup": "~2.8.0"
+  }
+}
