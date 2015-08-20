@@ -1,4 +1,4 @@
-Demo project.
+Demo project (modern browsers).
 
 Please run `bower install` first
 
